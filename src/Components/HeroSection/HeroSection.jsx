@@ -4,7 +4,7 @@ import Image1 from "../../Assets/Marketing 1.png";
 function HeroSection() {
   return (
     <div className='flex flex-col lg:flex-row h-screen w-full'>
-      <div className='bg-gray-900 text-white h-screen w-full lg:w-1/2 flex items-center justify-center rounded-bl-[100px]'>
+      <div className='bg-gray-900 text-white h-screen w-full lg:w-1/2 flex items-center justify-center md:flex-col rounded-bl-[100px]'>
         <div className='max-w-lg px-4'>
           <h1 className='text-4xl font-bold mb-4'>
             Reach your - <br />
@@ -45,7 +45,7 @@ function HeroSection() {
         </div>
       </div>
       <div className='bg-gray-900 text-white h-screen w-full lg:w-1/2 flex items-center justify-center'>
-        <div className='w-96 h-40 z-10 border border-red-600 relative'></div>
+        <div className='w-[420px] h-[300px] z-10 border border-red-600 relative'></div>
         <div className='absolute max-w-sm'>
           <Image src={Image1} alt='' />
         </div>
